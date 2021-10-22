@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+}
+
+
+header {
+    padding: 1rem;
+    background-color: #D8D8D8;
+    text-decoration: black;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.Pyramid {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    margin-left:20%;
+    margin-right:20%;
+    margin-top: 2%;
+}
+
+
+#first {
+    background-color: rgb(230, 82, 82);
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+    
+}
+
+#second {
+    background-color: orange;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+#third {
+    background-color:yellow;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+#fourth {
+    background-color: lightblue;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+#fifth {
+    background-color: lightgreen;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+#sixth {
+    background-color: burlywood;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    
+}
+
+button{
+    display: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 35%;
+    background-color: blanchedalmond;
+    
+}
+
+.Pyramid :hover button{
+    display: block;
+    
+}
+
+div > span{
+    width: 24px;
+    height: 24px;
+    border-radius: 35%;
+    background-color: blanchedalmond;
+    margin: 3px;
+}
+
+
+.date {
+
+    padding: 1rem;
+    background-color: #10e7b1;
+    text-decoration: black;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+

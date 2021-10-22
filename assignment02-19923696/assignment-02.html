@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Memory Game</title>
+    
+    <link rel="stylesheet" type="text/css" href="assignment-02.css" media="screen"/>
+
+    <!---Google font: Orbitron-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+<!---Audio files for the beeping-->
+    <audio id = "audio01">
+        <source src = "audio/audio01.mp3">
+    </audio>
+    <audio id = "audio02">
+        <source src = "audio/audio02.mp3">
+    </audio>
+    <audio id = "audio03">
+        <source src = "audio/audio03.mp3">
+    </audio>
+    <audio id = "audio04">
+        <source src = "audio/audio04.mp3">
+    </audio>
+
+</head>
+<body>
+<div class="wrapper">
+
+    <!---Circles for flashes-->
+    <div class="top_row">
+        <div class="circle" id="top-left"></div>
+        <div class="circle" id="top-right"></div>
+    </div>
+    <div class="bottom-row">
+        <div class="circle" id="bottom-left"></div>
+        <div class="circle" id="bottom-right"></div>
+    </div>
+
+<!--Centre Console-->
+    <div class="centre_circle"></div>
+
+    <!---inner buttons and score counters-->
+    <div class="elements">
+        <div class="score" id="prevHS">00</div>
+        <div class ="button" id ="start">START</div>
+        <div class="score" id="current">00</div>
+        <div class="indicator"></div>
+    </div>
+
+    <!---Circles to go behind the flashables-->
+    <div class="shadow" id = "circle1"></div>
+    <div class="shadow" id = "circle2"></div>
+    <div class="shadow" id = "circle3"></div>
+    <div class="shadow" id = "circle4"></div>
+
+</div>
+
+    <script src = "assignment-02.js"></script>
+
+
+
+</body>
+</html>

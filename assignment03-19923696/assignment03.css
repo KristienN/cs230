@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+    font-size: small;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    
+}
+
+table th{
+    text-align: center;
+    background-color: rgb(110, 110, 110);
+    padding: 12px 12px;
+    margin: 5px 5px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+tr:nth-child(odd) td {
+    background-color: rgb(219, 219, 219);
+}
+
+.assignment {
+    text-align: center;
+}
+
+tr {
+    padding: 12px 12px;
+    margin: 5px 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+td {
+    padding: 12px 12px;
+    margin: 5px 5px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+.info {
+    text-align: left;
+}
+
+.names {
+    text-align: left;
+}
+
+.btn{
+
+    padding: 10px;
+    margin: 10px 10px;
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    cursor: pointer;
+    color: honeydew;
+}
+
+.confirm{
+    padding: 10px;
+    margin: 10px 10px;
+    width: 100px;
+    height: 20px;
+    background-color: greenyellow;
+    text-align: center;
+    justify-content: center;
+    display: none;
+    cursor: pointer;
+}
+
+.cancel{
+    padding: 10px;
+    margin: 10px 10px;
+    width: 100px;
+    height: 20px;
+    background-color: red;
+    text-align: center;
+    justify-content: center;
+    display: none;
+    cursor: pointer;
+}
+
+
+.nAn {
+    background-color: yellow;
+    text-align: center;
+}
+
+tr:nth-child(odd) .nAn{
+    background-color: yellow;
+}
+
+.nUm{
+    text-align: right;
+}
+
+.show{
+    display: inline-block;
+}
+
+.fail{
+    background-color: red;
+    color: #fff;
+}
+
+tr:nth-child(odd) .fail {
+    background-color: red;
+    color: #fff;
+}
+
+.counter {
+    padding: 10px;
+    margin: 10px 10px;
+    width: 200px;
+    height: 20px;
+    background-color: yellow;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;   
+}
+
+.select {
+    background-color: black;
+    color: white;
+}
